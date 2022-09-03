@@ -15,11 +15,12 @@
 ## Machine Learning Model Mockup:
 (diagram that explains how it will work concurrently with the rest of the project steps)
 * Fraud or not fraud? By age range
-* Linear or logistic regression model
+* feature importance/random forest to see which features are more predictive
+* logistic regression model
 
 ## Database Mockup:
 * create folder of csvs 
-* columns/ features being used in each dataset
+* columns/ features being used in each dataset*
 * ERD (how dfs are being joined)
 * Week 2 - upload into postgres (eventually join both tables)
 
