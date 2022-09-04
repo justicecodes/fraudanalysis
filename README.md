@@ -20,6 +20,8 @@
 
 ✓ Description of data preprocessing
  ✓ Description of feature engineering and the feature selection, including their decision- making process
+ <img width="1192" alt="Screen Shot 2022-09-04 at 1 39 48 PM" src="https://user-images.githubusercontent.com/103595718/188328713-7124d4c9-0883-432c-98be-b4da5946a585.png">
+ 
  ✓ Description of how data was split into training and testing sets
  ✓ Explanation of model choice, including limitations and benefits
  ✓ Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
