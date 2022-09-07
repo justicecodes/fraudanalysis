@@ -28,7 +28,7 @@
   * Description of current accuracy score: 
 
 ## Database Mockup:
- <img width="1192" alt="Screen Shot 2022-09-04 at 1 39 48 PM" src="https://user-images.githubusercontent.com/103595718/188328713-7124d4c9-0883-432c-98be-b4da5946a585.png">
+![db_mockup](https://user-images.githubusercontent.com/103595718/188918466-19835ca6-ffc0-4491-ac88-ea08f7ec6103.png)
 
 * columns/ features being used in each dataset
 <img width="415" alt="zipcode_columns_touse" src="https://user-images.githubusercontent.com/103595718/188771476-225adb69-2565-4983-b024-f3d48e041b6a.png">
