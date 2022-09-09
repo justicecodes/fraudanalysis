@@ -21,11 +21,13 @@
   * management of meeting times is communicated through Slack
 
 ## Machine Learning Model:
-* Fraud or not fraud?
-* feature importance/random forest to see which features are more predictive - age range, m/f
-* logistic regression model
+* We are using a supervised machine learning model to help determine if a credit card transaction is fraud or not fraud
+* First, we are using feature importance/random forest to see which features are more predictive - age range, m/f
+* Next, we are using a logistic regression model to classify if transactions in the training group are fraud or not fraud. The goal is that the model and accuracy is replicable with the test set.
 * Provisional model (screenshot?)
 
+
+* Segment 2 draft:
   * Description of data preprocessing: 
   * Description of feature engineering and the feature selection, including their decision- making process: 
   * Description of how data was split into training and testing sets: 
@@ -40,8 +42,6 @@
 * columns/ features being used in each dataset
 <img width="415" alt="zipcode_columns_touse" src="https://user-images.githubusercontent.com/103595718/188771476-225adb69-2565-4983-b024-f3d48e041b6a.png">
 <img width="1227" alt="fraudTrain_columns_touse" src="https://user-images.githubusercontent.com/103595718/188771294-ecfe175c-8c25-42dc-8425-0ac6ea668b7c.png">
-
-
 
 * ERD 
 
