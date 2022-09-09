@@ -55,16 +55,16 @@
 
 ## Roles:
 (lead of each role, proposed roles) 
-* Machine learning model - 
-* SQL / Postgres - 
-* Tableau - 
-* Jupyter Notebook (summary stats) - 
+* Machine learning model - Lindsay, Dylan
+* SQL / Postgres - Dhwani
+* Tableau - Jenna
+* Jupyter Notebook (summary stats) - Mustafa
 * Square (github / project manager / slideshow presentation at end) - 
 
 Original roles
-* Square (git) - 
-* Triangle (machine learning) - 
-* Circle (dataset) - 
-* X Triangle (technologies used) - 
-* X Circle (technologies used) - 
+* Square (git) - Jenna
+* Triangle (machine learning) - Lindsay
+* Circle (dataset) - Mustafa
+* X Triangle (technologies used) - Dylan
+* X Circle (technologies used) - Dhwani
 
