@@ -44,6 +44,7 @@
 <img width="1227" alt="fraudTrain_columns_touse" src="https://user-images.githubusercontent.com/103595718/188771294-ecfe175c-8c25-42dc-8425-0ac6ea668b7c.png">
 
 * ERD 
+<img width="914" alt="Screen Shot 2022-09-05 at 9 42 24 PM" src="https://user-images.githubusercontent.com/103544626/189564354-b14de851-7160-4d84-ae77-9799c0cba3a4.png">
 
 * create schema w sqlalchemy 
 * add SQLlite file to connect machine learning file to data files
