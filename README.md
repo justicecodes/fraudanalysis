@@ -42,12 +42,14 @@ management of meeting times is communicated through Slack
 * Tableau - pie chart of male vs female and category, bar chart of age ranges & income ranges, bar chart of time of day, map of location of card holders
 
 ## Roles:
+Proposed Roles:
 * Machine learning model - Lindsay, Dylan
 * SQL / Postgres - Dhwani
 * Tableau - Jenna
 * Jupyter Notebook (summary stats) - Mustafa
 * Square (github / project manager / slideshow presentation at end) -
 
+Original Roles:
 * Square (git) - Jenna
 * Triangle (machine learning) - Lindsay
 * Circle (dataset) - Mustafa
