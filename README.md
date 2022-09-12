@@ -11,7 +11,7 @@
 
 ## Description of Communication Protocols:
 * Slack:
-  *Daily casual communication in a group Slack channel to report progress of small group meetings and individual questions to collaborate on code
+  * Daily casual communication in a group Slack channel to report progress of small group meetings and individual questions to collaborate on code
 * Zoom:
   * Whole group meetings during class T/Th 7-9pm
   * M/W/Su group zoom meetings 9-10pm, some meetings are whole group, some are small groups within the team to collaborate on certain project segments
