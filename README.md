@@ -14,8 +14,8 @@
 
 ## Machine Learning Model Mockup:
 (diagram that explains how it will work concurrently with the rest of the project steps)
-* Fraud or not fraud? By age range
-* feature importance/random forest to see which features are more predictive
+* Our outcome variable will determined by "is_fraud", in which 0= Not Fraud and 1= Fraud? 
+* We will use feature importance/random forest to see which features are more predictive: AgeGroup, gender, city_pop, average_income
 * logistic regression model
 
 ✓ Description of data preprocessing
