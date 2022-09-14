@@ -1,5 +1,5 @@
 cleanfraudTrain.csv
-Postcodes.csv
+cleanPostcodes.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
