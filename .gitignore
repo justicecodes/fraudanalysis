@@ -1,3 +1,10 @@
+
+*.csv
+Data/cleanfraudTrain.csv
+Data/cleanPostcodes.csv
+Data/fraudTrain.csv
+Data/Postcodes.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
