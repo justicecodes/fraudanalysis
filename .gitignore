@@ -1,3 +1,4 @@
+*.csv
 Data/cleanfraudTrain.csv
 Data/cleanPostcodes.csv
 Data/fraudTrain.csv
