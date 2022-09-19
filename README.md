@@ -13,6 +13,20 @@
 
 ## Database Mockup
 
+<img width="605" alt="Screen Shot 2022-09-19 at 2 31 53 AM" src="https://user-images.githubusercontent.com/104036750/190969448-002e13ff-b88a-4b93-8c6c-ae0321d3e486.png">
+
+
+<img width="422" alt="Screen Shot 2022-09-19 at 2 31 57 AM" src="https://user-images.githubusercontent.com/104036750/190969459-b04d7773-e766-4006-b77e-5ace15667650.png">
+
+
+
+<img width="615" alt="Screen Shot 2022-09-19 at 2 32 02 AM" src="https://user-images.githubusercontent.com/104036750/190969462-672408bf-c9b1-42d8-992c-404c5264b015.png">
+
+
+
+
+
+
 ## Description of Communication Protocols:
 * Slack:
   * Daily casual communication in a group Slack channel to report progress of small group meetings and individual questions to collaborate on code
