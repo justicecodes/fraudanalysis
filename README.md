@@ -11,6 +11,8 @@
 * [Credit Card Transactions Fraud Detection dataset from Kaggle](https://www.kaggle.com/datasets/kartik2112/fraud-detection)
 * [Average Income by US Zip Codes dataset from Kaggle](https://github.com/justicecodes/projectpractice#dataset-source:~:text=Average%20Income%20by%20US%20Zip%20Codes) 
 
+## Database Mockup
+
 ## Description of Communication Protocols:
 * Slack:
   * Daily casual communication in a group Slack channel to report progress of small group meetings and individual questions to collaborate on code
