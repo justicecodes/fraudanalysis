@@ -15,14 +15,6 @@
 * [Credit Card Transactions Fraud Detection](https://www.kaggle.com/datasets/kartik2112/fraud-detection) dataset from Kaggle, training csv file is used for analysis
 * [Average Income by US Zip Codes](https://www.kaggle.com/datasets/hamishgunasekara/average-income-per-zip-code-usa-2018?select=postcode_level_averages.csv) dataset from Kaggle
 
-## Description of Communication Protocols: 
-* Slack:
-  * Daily casual communication in a group Slack channel to report progress of small group meetings and individual questions to collaborate on code
-* Zoom:
-  * Whole group meetings during class T/Th 7-9pm
-  * M/W/Su group zoom meetings 9-10pm, some meetings are whole group, some are small groups within the team to collaborate on certain project segments
-  * management of meeting times is communicated through Slack
-
 ## Machine Learning Model:
 * We are using a supervised machine learning model to help determine if a credit card transaction is fraud or not fraud
 * First, we are using feature importance/random forest to see which features are more predictive - age range, m/f
