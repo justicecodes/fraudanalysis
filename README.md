@@ -48,19 +48,3 @@
 * Jupyter Notebook - dataframes, machine learning model
 * PgAdmin (editing dataset to remove rows/columns)
 * Tableau - pie chart of male vs female and category, bar chart of age ranges & income ranges, bar chart of time of day, map of location of card holders
-
-## Roles:
-(lead of each role, proposed roles) 
-* Machine learning model - Lindsay, Dylan
-* SQL / Postgres - Dhwani
-* Tableau - Jenna
-* Jupyter Notebook (summary stats) - Mustafa
-* Square (github / project manager / slideshow presentation at end) - 
-
-Original roles
-* Square (git) - Jenna
-* Triangle (machine learning) - Lindsay
-* Circle (dataset) - Mustafa
-* X Triangle (technologies used) - Dylan
-* X Circle (technologies used) - Dhwani
-
