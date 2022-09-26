@@ -2,6 +2,7 @@
 # Credit Card Fraud Analysis
 
 ## [Link to Presentation](https://docs.google.com/presentation/d/1-1RvOME2adhu_sqhdcV004dQU8e36NeqqYgtGavd53A/edit?usp=sharing)
+### [Link to Dashboard](https://public.tableau.com/shared/GT93NR9N8?:display_count=n&:origin=viz_share_link)
 
 ## Questions to answer: 
 * Are there factors (gender, age, location, income range, time of day, category of purchase) that make you more susceptible to credit card fraud?
