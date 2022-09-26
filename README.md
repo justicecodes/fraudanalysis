@@ -90,11 +90,13 @@ Fraud/Time of Day Pie Chart
 
 Fraud Count/Age Group Bar Graph
 
+<img width="856" alt="Screen Shot 2022-09-25 at 11 18 25 PM" src="https://user-images.githubusercontent.com/104036750/192193454-b38ab08c-9f7d-4828-bcf4-ebc0a42d110e.png">
 
 
 
 Fraud Count Bar Graph
 
+<img width="430" alt="Screen Shot 2022-09-25 at 11 18 42 PM" src="https://user-images.githubusercontent.com/104036750/192193460-5417036e-ffef-4680-a1f3-bca8100fbb10.png">
 
 
 
