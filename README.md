@@ -73,3 +73,12 @@ Original Roles:
 * Circle (dataset) - Mustafa
 * X Triangle (technologies used) - Dylan
 * X Circle (technologies used) - Dhwani
+
+## Tableau Graphs
+
+Fraud/Gender Pie Chart
+Fraud/Time of Day Pie Chart
+Fraud Count/Age Group Bar Graph
+Fraud Count Bar Graph
+Fraud Amount Bar Graph
+Fraud Amount/Category Bar Graph
