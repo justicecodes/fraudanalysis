@@ -77,8 +77,34 @@ Original Roles:
 ## Tableau Graphs
 
 Fraud/Gender Pie Chart
+
+<img width="854" alt="Screen Shot 2022-09-25 at 11 17 55 PM" src="https://user-images.githubusercontent.com/104036750/192193399-2ba0a056-0b18-48e4-b29f-c31cb629e0b8.png">
+
+
+
 Fraud/Time of Day Pie Chart
+
+<img width="863" alt="Screen Shot 2022-09-25 at 11 18 06 PM" src="https://user-images.githubusercontent.com/104036750/192193411-0d2f6a21-82a4-4682-ac5b-8854b7551b4d.png">
+
+
+
 Fraud Count/Age Group Bar Graph
+
+
+
+
 Fraud Count Bar Graph
+
+
+
+
 Fraud Amount Bar Graph
+
+
+
+
 Fraud Amount/Category Bar Graph
+
+
+
+
