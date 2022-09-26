@@ -76,37 +76,37 @@ Original Roles:
 
 ## Tableau Graphs
 
-Fraud/Gender Pie Chart
+* Fraud/Gender Pie Chart
 
 
 <img width="854" alt="Screen Shot 2022-09-25 at 11 17 55 PM" src="https://user-images.githubusercontent.com/104036750/192193399-2ba0a056-0b18-48e4-b29f-c31cb629e0b8.png">
 
 
-Fraud/Time of Day Pie Chart
+* Fraud/Time of Day Pie Chart
 
 
 <img width="863" alt="Screen Shot 2022-09-25 at 11 18 06 PM" src="https://user-images.githubusercontent.com/104036750/192193411-0d2f6a21-82a4-4682-ac5b-8854b7551b4d.png">
 
 
-Fraud Count/Age Group Bar Graph
+* Fraud Count/Age Group Bar Graph
 
 
 <img width="856" alt="Screen Shot 2022-09-25 at 11 18 25 PM" src="https://user-images.githubusercontent.com/104036750/192193454-b38ab08c-9f7d-4828-bcf4-ebc0a42d110e.png">
 
 
-Fraud Count Bar Graph
+* Fraud Count Bar Graph
 
 
 <img width="430" alt="Screen Shot 2022-09-25 at 11 18 42 PM" src="https://user-images.githubusercontent.com/104036750/192193460-5417036e-ffef-4680-a1f3-bca8100fbb10.png">
 
 
-Fraud Amount Bar Graph
+* Fraud Amount Bar Graph
 
 
 <img width="436" alt="Screen Shot 2022-09-25 at 11 18 53 PM" src="https://user-images.githubusercontent.com/104036750/192193502-5199588b-50f8-441a-bb8d-26ea21b34255.png">
 
 
-Fraud Amount/Category Bar Graph
+* Fraud Amount/Category Bar Graph
 
 
 <img width="648" alt="Screen Shot 2022-09-25 at 11 19 02 PM" src="https://user-images.githubusercontent.com/104036750/192193507-15d0bcd0-3ff8-4bd6-9f92-3713fcc41768.png">
