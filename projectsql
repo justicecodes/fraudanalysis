@@ -1,0 +1,89 @@
+CREATE TABLE fraudtrain (
+    zip	INT NOT NULL,
+    city_pop INT,
+    amt FLOAT NOT NULL,
+    category VARCHAR,
+    is_fraud INT NOT NULL,
+    gender VARCHAR,
+    dob VARCHAR,
+    Age	INT, 
+    AgeGroup TEXT NOT NULL,
+    "time" INT,
+    TimeOfDay TEXT,
+    lat FLOAT(4),
+    long FLOAT(4),
+    merch_lat FLOAT(4),
+    merch_long FLOAT(4)
+);
+
+CREATE TABLE postcodes (
+    "state" VARCHAR(2),
+    zipcode INT NOT NULL,
+    total_pop INT,
+    total_income INT,
+    country VARCHAR,
+    avg_income FLOAT(2) NOT NULL,
+    PRIMARY KEY (zipcode)
+);
+
+SELECT * FROM postcodes;
+
+-- Create new table for postcodes
+SELECT zipcode, avg_income
+INTO simplifiedPostcodes
+FROM postcodes
+
+-- Create new table for fraudtrain
+SELECT zip, city_pop, amt, category, is_fraud, gender, dob, Age, AgeGroup, "time", TimeofDay 
+INTO simplifiedfraudTrain
+FROM fraudtrain
+
+SELECT * FROM simplifiedfraudTrain
+
+-- Joining simplified tables
+SELECT simplifiedfraudtrain.zip,
+    simplifiedfraudtrain.city_pop,
+    simplifiedfraudtrain.amt, 
+    simplifiedfraudtrain.category, 
+    simplifiedfraudtrain.is_fraud, 
+    simplifiedfraudtrain.gender, 
+    simplifiedfraudtrain.dob, 
+    simplifiedfraudtrain.Age, 
+    simplifiedfraudtrain.AgeGroup, 
+    simplifiedfraudtrain.time, 
+    simplifiedfraudtrain.TimeofDay,
+    simplifiedpostcodes.avg_income
+INTO mergedfrauddata
+FROM simplifiedfraudtrain
+LEFT JOIN simplifiedpostcodes
+ON simplifiedfraudtrain.zip = simplifiedpostcodes.zipcode;
+
+SELECT * FROM mergedfrauddata;
+
+-- count: over 20,000 zip codes from fraudtrain that did not match a zipcode from postcodes
+SELECT COUNT(zip)
+FROM mergedfrauddata
+WHERE avg_income IS  NULL;
+
+-- create final table (merged) with 2 decimal places and no null values
+SELECT zip, city_pop, CAST(avg_income as numeric(10,2)) as avg_income, CAST(amt as numeric(10,2)) as amt, category, is_fraud, gender, dob, age, agegroup, "time", timeofday
+INTO cleanfrauddata
+FROM mergedfrauddata
+WHERE avg_income IS NOT NULL;
+
+SELECT * FROM cleanfrauddata
+
+-- creates second table of only fraudulent transactions
+SELECT * 
+INTO fraudulenttransactions
+FROM cleanfrauddata
+WHERE is_fraud = 1;
+
+
+-- proves the fraudulenttransactions count matches count from the original data where is_fraud = 1
+SELECT COUNT(is_fraud)
+FROM cleanfrauddata
+WHERE is_fraud = 1;
+
+SELECT COUNT(is_fraud)
+FROM fraudulenttransactions;
