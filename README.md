@@ -45,6 +45,7 @@
 * Data was split into a test set of 268,982 and a training set of 1,027,692, giving us roughly a 1:5 ratio.
 ### Results: 
 ✓ [(0.39983327283238834, 'time'), (0.14321961453874074, 'timeofday'), (0.113523267410041, 'city_pop'), (0.10888477241156184, 'avg_income'), (0.10725725402802479, 'zip'), (0.09435533192086078, 'age'), (0.01936477870215177, 'agegroup'), (0.01356170815623074, 'gender')]
+
 ✓ Description of current accuracy score Our logistic regression provides an accuracy score of 0.9942226617394473 Our Random Forest Classifier provides an accuracy score of 8116594521290365
 
 ### Limitations or suggestions for future analysis: 
