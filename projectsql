@@ -73,6 +73,7 @@ WHERE avg_income IS NOT NULL;
 
 SELECT * FROM cleanfrauddata
 
+-- creates second table of only fraudulent transactions
 SELECT * 
 INTO fraudulenttransactions
 FROM cleanfrauddata
