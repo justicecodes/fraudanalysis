@@ -44,16 +44,21 @@
 * To preprocess our data for machine learning, we dropped the columns indicating the persons job (category), individuals' date of birth (dob), and the amount of money associated with the individuals' tracked transaction (amt). After that, we dropped all rows containing null values. Finally, we assigned numeric values to various strings in the df. The binary gender variables M or F became 1 or 2. The buckets created for AgeGroup and timeofday each recieved a numeric value of 1-5.
 * Data was split into a test set of 268,982 and a training set of 1,027,692, giving us roughly a 1:5 ratio. As can be seen in the image below, we used counter to deliniate the number of fraudulent cases analyzed versis not fraud cases. 
 
-![split](/mlvisualizations/split)
+![split.png](/mlvisualizations/split.png)
 ### Results: 
-In our initial machine learning file (merged data ML model), we attempted to resolve issues associated with the sampling size by oversampling and undersampling. However, both of these solutions reduced our accuracy score and provided more errors. It is likely that these issues arose due to the covariance within our independent variables. Other errors we attempted to troubleshoot in our machine learning were found within the random forest classifier. Our final feature selection analysis only included those shown in the image below. But, when time of day was included in our analysis our accuracy score improved to 81%. We decided to remove this feature because additional information would need to be provided about the data collection. 
+In our initial machine learning file (merged data ML model), we attempted to resolve issues associated with the sampling size by oversampling and undersampling. However, both of these solutions reduced our accuracy score and provided more errors. It is likely that these issues arose due to the covariance within our independent variables. Some of the errors can be seen in our confusion matrix and logistic regression classification. 
 
-![sorted features](/mlvisualizations/sortedfeatures)
+![LOGconfusion.png](/mlvisualizations/LOGconfusion.png)
+![LOGclassification.png](/mlvisualizations/LOGclassification.png)
+
+Other errors we attempted to troubleshoot in our machine learning were found within the random forest classifier. Our final feature selection analysis only included those shown in the image below. But, when time of day was included in our analysis our accuracy score improved to 81%. We decided to remove this feature because additional information would need to be provided about the data collection. 
+
+![sorted features.png](/mlvisualizations/sorted features.png)
 
 ✓ Description of current accuracy score Our logistic regression provides an accuracy score of 0.9942226617394473 Our Random Forest Classifier provides an accuracy score of 0.6648701908753212
 
-![LOGaccuracy](/mlvisualizations/LOGaccuracy)
-![RFCaccuracy](/mlvisualizations/RFCaccuracy)
+![LOGaccuracy.png](/mlvisualizations/LOGaccuracy.png)
+![RFCaccuracy.png](/mlvisualizations/RFCaccuracy.png)
 
 ### Limitations or suggestions for future analysis: 
   * A limitation of our data is its simulated nature. It is unknown if our derived results are indiicative of real trends.
