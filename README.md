@@ -38,7 +38,6 @@
 ## Machine Learning Model:
 * Our binary outcome variable is "is_fraud." It contains the categories Fraud and Not Fraud.
 * We have run a logistic regression and a random forest classifier ML model to assist us in our understanding of who is likely to commit fraud. We are assessing the feature importance of the following variables to determine which are more predictive: AgeGroup, gender, city_pop, average_income, zip_code, and timeofday.
-* Given our high accuracy scores provided by both the logistic regression and the random forest, we did not alter our model choice throughout the project
 
 ### Description of data preprocessing:
 * To preprocess our data for machine learning, we dropped the columns indicating the persons job (category), individuals' date of birth (dob), and the amount of money associated with the individuals' tracked transaction (amt). After that, we dropped all rows containing null values. Finally, we assigned numeric values to various strings in the df. The binary gender variables M or F became 1 or 2. The buckets created for AgeGroup and timeofday each recieved a numeric value of 1-5.
@@ -53,7 +52,7 @@ In our initial machine learning file (merged data ML model), we attempted to res
 
 Other errors we attempted to troubleshoot in our machine learning were found within the random forest classifier. Our final feature selection analysis only included those shown in the image below. But, when time of day was included in our analysis our accuracy score improved to 81%. We decided to remove this feature because additional information would need to be provided about the data collection. 
 
-![sorted features.png](/mlvisualizations/sorted features.png)
+![sortedfeatures.png](/mlvisualizations/sortedfeatures.png)
 
 ✓ Description of current accuracy score Our logistic regression provides an accuracy score of 0.9942226617394473 Our Random Forest Classifier provides an accuracy score of 0.6648701908753212
 
@@ -77,7 +76,7 @@ Other errors we attempted to troubleshoot in our machine learning were found wit
 
 ## Roles: 
 * Square (git and presentation) - Jenna
-* Triangle (machine learning) - Lindsey
+* Triangle (machine learning) - Lindsay
 * Circle (dataset) - Dhwani & Mustafa
 * Dashboard (tableau) - Dylan
 
