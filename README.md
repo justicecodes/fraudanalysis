@@ -4,6 +4,7 @@
 
 ## Link to Presentation
 
+
 ## Reasoning for Topic Choice:
 * Credit card usage has been increasing steadily over the years, but even moreso with change shortages and COVID in the past few years. 28% of all transactions are with credit cards as of 2021. 80% of American adults have had a credit card account, with an average of 3 cards per person. With the increased usage, credit card fraud is also becomming more prevalent. We agreed that everyone has had to deal with recouperating fraudulent charges or know someone close to them who has. Our project group is interested in finding out if there are patterns or basic personal information (age, location, time of day) that makes people more susceptible to credit card fraud. The data we are using is limited in that it does not disclose how the credit card was used, for example if the card was physically stolen, entered online through phishing schemes, or any other method. Other uncertainties with results may occur with simulated data fields due to personal privacy laws. Models and results visualized as graphs will focus on personal demographics that may make a person more susceptible to fraud so that our audience may have a better idea how to keep their credit card usage safer overall.
 
@@ -75,6 +76,8 @@ Original Roles:
 * X Circle (technologies used) - Dhwani
 
 ## Tableau Graphs
+
+* https://public.tableau.com/app/profile/dylan.jungmann/viz/CreditCardFraud_16639020977960/Story2?publish=yes
 
 * Fraud/Gender Pie Chart
 
